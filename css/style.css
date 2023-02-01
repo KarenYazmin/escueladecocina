@@ -36,6 +36,9 @@ p{
     background-position: center center;
 
 }
+.inverso::after{
+    background-image: url(../img/separador-inverso.png);
+}
 /** imagens de fondo **/
 .imagen-destacada{
     height: 24rem;
@@ -55,6 +58,62 @@ p{
 .nosotros .informacion h3{
     font-weight: 300;
     font-size: 1.6rem;
+}
+/** Blog **/
+blockquote.subtitulo{
+    font-size: 1.6rem;
+    color: #303030;
+    font-style: italic;
+    font-weight: 100;
+    border-left: .2rem solid #f46669;
+}
+.entrada a{
+    color: #f46669;
+}
+.contenido-entrada .meta p{
+    font-weight: 700;
+}
+.contenido-entrada .meta span{
+    color: #f46669;
+}
+
+.btn-primary{
+    background-color:#f46669;
+    border-color: #f46669;
+}
+.btn-primary:hover{
+    background-color:#631617;
+    border-color: #631617;
+}
+.text-light{
+    color: #ffffff !important;
+}
+/** Sidebar **/
+.bg-primary{
+    background-color: #f46669 !important;
+}
+aside a,
+aside a:hover{
+    color: #f5f5f5;
+}
+aside .card{
+    border: none;
+}
+aside .card-title{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+aside .card-subtitle{
+    color: #f46669;
+    font-weight: 400;
+}
+/** footer **/
+aside .card-footer{
+    background-color: #c7c57d;
+}
+aside .card-footer a{
+    color: black;
 }
 .copyright{
     font-weight: 700;
