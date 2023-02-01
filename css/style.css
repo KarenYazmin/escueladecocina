@@ -56,6 +56,35 @@ p{
     font-weight: 300;
     font-size: 1.6rem;
 }
+/** Blog **/
+blockquote.subtitulo{
+    font-size: 1.6rem;
+    color: #303030;
+    font-style: italic;
+    font-weight: 100;
+    border-left: .2rem solid #f46669;
+}
+.entrada a{
+    color: #f46669;
+}
+.contenido-entrada .meta p{
+    font-weight: 700;
+}
+.contenido-entrada .meta span{
+    color: #f46669;
+}
+
+.btn-primary{
+    background-color:#f46669;
+    border-color: #f46669;
+}
+.btn-primary:hover{
+    background-color:#631617;
+    border-color: #631617;
+}
+.text-light{
+    color: #ffffff !important;
+}
 .copyright{
     font-weight: 700;
 }
