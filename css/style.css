@@ -115,6 +115,21 @@ aside .card-footer{
 aside .card-footer a{
     color: black;
 }
+/** Cursos **/
+.card{
+    margin-bottom: 2rem;
+}
+.card-subtitle{
+    color: #f46669;
+    font-weight: 400;
+}
+.card-title{
+    font-weight: 400;
+}
+.badge-secondary{
+    background-color: #c7c57d;
+    color: black;
+}
 .copyright{
     font-weight: 700;
 }
