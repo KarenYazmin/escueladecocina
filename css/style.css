@@ -47,6 +47,9 @@ p{
 .nosotros-bg{
     background-image: url(../img/principal1.jpg);
 }
+.clase-bg{
+    background-image: url(../img/1.jpg);
+}
 
 /** Nosotros **/
 .contenido-nosotros{
