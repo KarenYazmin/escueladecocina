@@ -56,6 +56,41 @@ p{
 .inverso::after{
     background-image: url(../img/separador-inverso.png);
 }
+/** HOME **/
+.imagen > div{
+    height: 30rem;
+}
+@media (min-width:768px){
+    .imagen > div{
+        height: 45rem;
+    }
+}
+.bg-vino,.bg-comida{
+    background-size: cover;
+    background-position: top-center;
+}
+.bg-vino{
+    background-image: url(../img/principal1.jpg);
+    
+}
+.bg-comida{
+    background-image: url(../img/principal2.jpg);
+}
+.imagen-superior .contenido{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.imagen-inferior .contenido{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+@media (min-width:768px){
+    .imagen-inferior .bg-secondary{
+        order: 2;
+    }
+}
+
+
 /** imagens de fondo **/
 .imagen-destacada{
     height: 24rem;
