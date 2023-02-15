@@ -1,5 +1,19 @@
 <?php
 
+
+/**
+ *  Funciones que se cargan al activar el Tema
+ */
+
+ function edc_setup(){
+
+ }
+add_action('after_setup_theme', 'edc_setup');
+    //Menu de navegacion
+    register_nav_menus(array(
+        'menu_principal' => esc_html__('Menu Principal', 'escuelacocina') 
+    ));
+
 /**
  *  Cargar los Scripts y CSS del theme
  */
