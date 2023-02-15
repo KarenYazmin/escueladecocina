@@ -185,7 +185,24 @@ aside .card-footer a{
 .instructor{
     font-size: 1.8rem;
     color: #f46669;
+}.licenciatura{
+    background-image: url(../img/chef_bg.jpg);
+    background-size: cover;
+    background-position: center center;
 }
+.licenciatura .row{
+    height: 38rem;
+}
+.licenciatura .contenido h2{
+    font-weight: 700;
+    font-size: 2.4;
+}
+.display-4{
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+/** Footer **/
 .copyright{
     font-weight: 700;
 }
