@@ -89,8 +89,9 @@ p{
         order: 2;
     }
 }
-
-
+body.index .clases{
+    background-color: #f5f5f5;
+}
 /** imagens de fondo **/
 .imagen-destacada{
     height: 24rem;
