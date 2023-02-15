@@ -67,6 +67,9 @@ p{
 .clase-bg{
     background-image: url(../img/1.jpg);
 }
+.contacto-bg{
+    background-image: url(../img/principal2.jpg);
+}
 
 /** Nosotros **/
 .contenido-nosotros{
